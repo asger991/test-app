@@ -87,3 +87,44 @@
   background-color: teal;
   color: #fff;
 }
+
+.CalendarMonth_caption {
+  color: #1bb89a !important;
+}
+
+.DayPickerKeyboardShortcuts_buttonReset {
+  visibility: hidden;
+}
+
+.DayPickerNavigation_button {
+  visibility: hidden;
+}
+
+.CalendarDay__default {
+  border: none !important;
+}
+
+.overlayClassName {
+  position: "absolute";
+  top: "40px";
+  left: "40px";
+  right: "40px";
+  bottom: "40px";
+  border: "1px solid #ccc";
+  background: "#fff";
+  overflow: "auto";
+  border-radius: "4px";
+  outline: "none";
+  padding: "20px";
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.DayPicker_weekHeader {
+  border-bottom: 2px solid #efefef;
+  padding-bottom: 3rem;
+}

@@ -12,7 +12,11 @@ const Products = ({ speed, subtitle, text }) => {
       </h2>
       <p className="c-product-comparison__subtitle">{subtitle}</p>
       <p className="u-color-grey u-text-medium">{text}</p>
-      <Modal component={<AddToCartModal />} componentClass="" className="btn">
+      <Modal
+        component={<AddToCartModal />}
+        overlayClassName="overlayClassName"
+        className="btn"
+      >
         {`Select ${speed}`}
       </Modal>
     </div>
