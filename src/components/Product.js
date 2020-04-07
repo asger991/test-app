@@ -2,7 +2,7 @@ import React from "react"
 import Modal from "./Modal"
 import AddToCartModal from "./AddToCartModal"
 
-const Products = ({ speed, subtitle, text }) => {
+const Products = ({ speed, subtitle, text, id }) => {
   return (
     <div className="c-product-comparison__product">
       <h2 className="c-product-comparison__title">
